@@ -1,5 +1,5 @@
 # Borgmatic Docker container
-[![Build Status](https://travis-ci.org/coaxial/docker-borgmatic-container.svg?branch=master)](https://travis-ci.org/coaxial/docker-borgmatic-container)
+[![Build Status](https://travis-ci.org/coaxial/docker-borgmatic-container.svg?branch=master)](https://travis-ci.org/coaxial/docker-borgmatic-container) [![](https://images.microbadger.com/badges/image/coaxial/borgmatic.svg)](https://microbadger.com/images/coaxial/borgmatic "Get your own image badge on microbadger.com")
 
 [Borg](https://borgbackup.readthedocs.io/) and [borgmatic](https://torsion.org/borgmatic/) in an Alpine container for your backup needs. Updated whenever `alpine:latest`  is.
 

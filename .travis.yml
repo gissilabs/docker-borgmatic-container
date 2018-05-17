@@ -9,3 +9,6 @@ jobs:
       script:
         - docker run --rm borgmatic borg --version | grep 'borg [0-9\.]\{1,\}'
         - "docker run --rm borgmatic borgmatic --help | grep --quiet 'usage: borgmatic .*'"
+
+notifications:
+  webhooks: https://hooks.microbadger.com/images/coaxial/borgmatic/MfUyTdX8azb7yx3a9iBWmGrnkY0=
