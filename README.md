@@ -1,4 +1,5 @@
 # Borgmatic Docker container
+[![Build Status](https://travis-ci.org/coaxial/docker-borgmatic-container.svg?branch=master)](https://travis-ci.org/coaxial/docker-borgmatic-container)
 
 [Borg](https://borgbackup.readthedocs.io/) and [borgmatic](https://torsion.org/borgmatic/) in an Alpine container for your backup needs. Updated whenever `alpine:latest`  is.
 
