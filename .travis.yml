@@ -1,0 +1,11 @@
+---
+jobs:
+  include:
+    - stage: test
+      services:
+        - docker
+      install:
+        - docker build -t borgmatic .
+      script:
+        - docker run --rm borgmatic borg --version | grep 'borg [0-9\.]\{1,\}'
+        - "docker run --rm borgmatic borgmatic --help | grep --quiet 'usage: borgmatic .*'"
