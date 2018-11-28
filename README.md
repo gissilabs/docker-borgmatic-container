@@ -5,7 +5,7 @@
 
 To see which version of borg this container is using, check this page: https://pkgs.alpinelinux.org/packages?name=borgbackup and choose the highest `vx.x` available (i.e. not edge). Or run this container with `docker pull monachus/borgmatic && docker run --rm monachus/borgmatic borg --version`.
 
-Docker image tags follow the borgmatic version, with `latest` corresponding to the most recent tagged image.
+Docker image tags follow the borgmatic version, with `latest` corresponding to the `master` branch of the repository.
 
 # Usage
 
