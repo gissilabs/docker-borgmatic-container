@@ -4,7 +4,7 @@ FROM python:${PYTHON_VERSION} as builder
 ENV PYTHONUNBUFFERED 1
 
 WORKDIR /wheels
-RUN pip3 wheel borgmatic==1.2.11
+RUN pip3 wheel borgmatic==1.2.12
 
 FROM python:${PYTHON_VERSION}
 COPY --from=builder /wheels /wheels
