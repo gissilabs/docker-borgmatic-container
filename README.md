@@ -1,5 +1,5 @@
 # Borgmatic Docker container
-[![](https://images.microbadger.com/badges/version/monachus/borgmatic:v1.3.12.svg)](https://microbadger.com/images/monachus/borgmatic:v1.3.12 "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/monachus/borgmatic:v1.3.13.svg)](https://microbadger.com/images/monachus/borgmatic:v1.3.13 "Get your own version badge on microbadger.com")
 
 [Borg](https://borgbackup.readthedocs.io/) and [borgmatic](https://torsion.org/borgmatic/) in an Alpine container for your backup needs.
 
