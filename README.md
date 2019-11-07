@@ -37,4 +37,4 @@ docker run --rm monachus/borgmatic borg --version
 
 # Issues
 
-Please open an issue describint the problem or requested feature. PRs are welcome.
+Please open an issue describing the problem or requested feature. PRs are welcome.
