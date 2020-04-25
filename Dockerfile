@@ -8,7 +8,7 @@ WORKDIR /wheels
 RUN pip3 wheel borgmatic==${BORGMATIC_VERSION}
 
 FROM python:${PYTHON_VERSION}
-ARG BORGMATIC_VERSION=1.5.1
+ARG BORGMATIC_VERSION=1.5.2
 
 COPY --from=builder /wheels /wheels
 
